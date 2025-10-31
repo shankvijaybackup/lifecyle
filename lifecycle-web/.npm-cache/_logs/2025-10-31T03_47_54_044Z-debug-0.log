@@ -1,0 +1,399 @@
+0 verbose cli /Users/vijayshankar/.nvm/versions/node/v22.20.0/bin/node /Users/vijayshankar/.nvm/versions/node/v22.20.0/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:/Users/vijayshankar/.nvm/versions/node/v22.20.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/.npmrc
+5 silly config load:file:/Users/vijayshankar/.npmrc
+6 silly config load:file:/Users/vijayshankar/.nvm/versions/node/v22.20.0/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "./.npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/.npm-cache/_logs/2025-10-31T03_47_54_044Z-
+10 verbose logfile /Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/.npm-cache/_logs/2025-10-31T03_47_54_044Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest tailwindcss-animate@1.0.7
+15 silly packumentCache full:https://registry.npmjs.org/tailwindcss-animate cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/tailwindcss-animate 246ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/tailwindcss-animate set size:undefined disposed:false
+18 silly fetch manifest tailwindcss@3.4.10
+19 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+20 http cache https://registry.npmjs.org/tailwindcss 11ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:9804242 disposed:false
+22 silly placeDep ROOT tailwindcss-animate@1.0.7 OK for: lifecycle-web@0.1.0 want: 1.0.7
+23 silly reify moves {}
+24 silly audit bulk request {
+24 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+24 silly audit   '@babel/runtime': [ '7.28.4' ],
+24 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+24 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+24 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+24 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+24 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+24 silly audit   '@next/env': [ '14.2.5' ],
+24 silly audit   '@next/swc-darwin-arm64': [ '14.2.5' ],
+24 silly audit   '@next/swc-darwin-x64': [ '14.2.5' ],
+24 silly audit   '@next/swc-linux-arm64-gnu': [ '14.2.5' ],
+24 silly audit   '@next/swc-linux-arm64-musl': [ '14.2.5' ],
+24 silly audit   '@next/swc-linux-x64-gnu': [ '14.2.5' ],
+24 silly audit   '@next/swc-linux-x64-musl': [ '14.2.5' ],
+24 silly audit   '@next/swc-win32-arm64-msvc': [ '14.2.5' ],
+24 silly audit   '@next/swc-win32-ia32-msvc': [ '14.2.5' ],
+24 silly audit   '@next/swc-win32-x64-msvc': [ '14.2.5' ],
+24 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+24 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+24 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+24 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+24 silly audit   '@swc/counter': [ '0.1.3' ],
+24 silly audit   '@swc/helpers': [ '0.5.5' ],
+24 silly audit   '@types/d3-array': [ '3.2.2' ],
+24 silly audit   '@types/d3-color': [ '3.1.3' ],
+24 silly audit   '@types/d3-ease': [ '3.0.2' ],
+24 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+24 silly audit   '@types/d3-path': [ '3.1.1' ],
+24 silly audit   '@types/d3-scale': [ '4.0.9' ],
+24 silly audit   '@types/d3-shape': [ '3.1.7' ],
+24 silly audit   '@types/d3-time': [ '3.0.4' ],
+24 silly audit   '@types/d3-timer': [ '3.0.2' ],
+24 silly audit   '@types/node': [ '24.9.2' ],
+24 silly audit   '@types/react': [ '19.2.2' ],
+24 silly audit   'ansi-regex': [ '6.2.2', '5.0.1' ],
+24 silly audit   'ansi-styles': [ '6.2.3', '4.3.0' ],
+24 silly audit   'any-promise': [ '1.3.0' ],
+24 silly audit   anymatch: [ '3.1.3' ],
+24 silly audit   arg: [ '5.0.2' ],
+24 silly audit   asynckit: [ '0.4.0' ],
+24 silly audit   autoprefixer: [ '10.4.20' ],
+24 silly audit   axios: [ '1.7.4' ],
+24 silly audit   'balanced-match': [ '1.0.2' ],
+24 silly audit   'baseline-browser-mapping': [ '2.8.21' ],
+24 silly audit   'binary-extensions': [ '2.3.0' ],
+24 silly audit   'brace-expansion': [ '2.0.2' ],
+24 silly audit   braces: [ '3.0.3' ],
+24 silly audit   browserslist: [ '4.27.0' ],
+24 silly audit   busboy: [ '1.6.0' ],
+24 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+24 silly audit   'camelcase-css': [ '2.0.1' ],
+24 silly audit   'caniuse-lite': [ '1.0.30001751' ],
+24 silly audit   chokidar: [ '3.6.0' ],
+24 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+24 silly audit   'class-variance-authority': [ '0.7.0' ],
+24 silly audit   clsx: [ '2.0.0', '2.1.1' ],
+24 silly audit   'client-only': [ '0.0.1' ],
+24 silly audit   'color-convert': [ '2.0.1' ],
+24 silly audit   'color-name': [ '1.1.4' ],
+24 silly audit   'combined-stream': [ '1.0.8' ],
+24 silly audit   commander: [ '4.1.1' ],
+24 silly audit   'cross-spawn': [ '7.0.6' ],
+24 silly audit   cssesc: [ '3.0.0' ],
+24 silly audit   csstype: [ '3.1.3' ],
+24 silly audit   'd3-array': [ '3.2.4' ],
+24 silly audit   'd3-color': [ '3.1.0' ],
+24 silly audit   'd3-ease': [ '3.0.1' ],
+24 silly audit   'd3-format': [ '3.1.0' ],
+24 silly audit   'd3-interpolate': [ '3.0.1' ],
+24 silly audit   'd3-path': [ '3.1.0' ],
+24 silly audit   'd3-scale': [ '4.0.2' ],
+24 silly audit   'd3-shape': [ '3.2.0' ],
+24 silly audit   'd3-time': [ '3.1.0' ],
+24 silly audit   'd3-time-format': [ '4.1.0' ],
+24 silly audit   'd3-timer': [ '3.0.1' ],
+24 silly audit   'decimal.js-light': [ '2.5.1' ],
+24 silly audit   'delayed-stream': [ '1.0.0' ],
+24 silly audit   didyoumean: [ '1.2.2' ],
+24 silly audit   dlv: [ '1.1.3' ],
+24 silly audit   'dom-helpers': [ '5.2.1' ],
+24 silly audit   'dunder-proto': [ '1.0.1' ],
+24 silly audit   eastasianwidth: [ '0.2.0' ],
+24 silly audit   'electron-to-chromium': [ '1.5.244' ],
+24 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+24 silly audit   'es-define-property': [ '1.0.1' ],
+24 silly audit   'es-errors': [ '1.3.0' ],
+24 silly audit   'es-object-atoms': [ '1.1.1' ],
+24 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+24 silly audit   escalade: [ '3.2.0' ],
+24 silly audit   eventemitter3: [ '4.0.7' ],
+24 silly audit   'fast-equals': [ '5.3.2' ],
+24 silly audit   'fast-glob': [ '3.3.3' ],
+24 silly audit   fastq: [ '1.19.1' ],
+24 silly audit   'fill-range': [ '7.1.1' ],
+24 silly audit   'follow-redirects': [ '1.15.11' ],
+24 silly audit   'foreground-child': [ '3.3.1' ],
+24 silly audit   'form-data': [ '4.0.4' ],
+24 silly audit   'fraction.js': [ '4.3.7' ],
+24 silly audit   fsevents: [ '2.3.3' ],
+24 silly audit   'function-bind': [ '1.1.2' ],
+24 silly audit   'get-intrinsic': [ '1.3.0' ],
+24 silly audit   'get-proto': [ '1.0.1' ],
+24 silly audit   glob: [ '10.4.5' ],
+24 silly audit   gopd: [ '1.2.0' ],
+24 silly audit   'graceful-fs': [ '4.2.11' ],
+24 silly audit   'has-symbols': [ '1.1.0' ],
+24 silly audit   'has-tostringtag': [ '1.0.2' ],
+24 silly audit   hasown: [ '2.0.2' ],
+24 silly audit   internmap: [ '2.0.3' ],
+24 silly audit   'is-binary-path': [ '2.1.0' ],
+24 silly audit   'is-core-module': [ '2.16.1' ],
+24 silly audit   'is-extglob': [ '2.1.1' ],
+24 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+24 silly audit   'is-glob': [ '4.0.3' ],
+24 silly audit   'is-number': [ '7.0.0' ],
+24 silly audit   isexe: [ '2.0.0' ],
+24 silly audit   jackspeak: [ '3.4.3' ],
+24 silly audit   jiti: [ '1.21.7' ],
+24 silly audit   'js-tokens': [ '4.0.0' ],
+24 silly audit   lilconfig: [ '2.1.0', '3.1.3' ],
+24 silly audit   'lines-and-columns': [ '1.2.4' ],
+24 silly audit   lodash: [ '4.17.21' ],
+24 silly audit   'loose-envify': [ '1.4.0' ],
+24 silly audit   'lru-cache': [ '10.4.3' ],
+24 silly audit   'math-intrinsics': [ '1.1.0' ],
+24 silly audit   merge2: [ '1.4.1' ],
+24 silly audit   micromatch: [ '4.0.8' ],
+24 silly audit   'mime-db': [ '1.52.0' ],
+24 silly audit   'mime-types': [ '2.1.35' ],
+24 silly audit   minimatch: [ '9.0.5' ],
+24 silly audit   minipass: [ '7.1.2' ],
+24 silly audit   mz: [ '2.7.0' ],
+24 silly audit   nanoid: [ '3.3.11' ],
+24 silly audit   next: [ '14.2.5' ],
+24 silly audit   'next-themes': [ '0.3.0' ],
+24 silly audit   postcss: [ '8.4.31', '8.4.49' ],
+24 silly audit   'node-releases': [ '2.0.27' ],
+24 silly audit   'normalize-path': [ '3.0.0' ],
+24 silly audit   'normalize-range': [ '0.1.2' ],
+24 silly audit   'object-assign': [ '4.1.1' ],
+24 silly audit   'object-hash': [ '3.0.0' ],
+24 silly audit   'package-json-from-dist': [ '1.0.1' ],
+24 silly audit   papaparse: [ '5.4.1' ],
+24 silly audit   'path-key': [ '3.1.1' ],
+24 silly audit   'path-parse': [ '1.0.7' ],
+24 silly audit   'path-scurry': [ '1.11.1' ],
+24 silly audit   picocolors: [ '1.1.1' ],
+24 silly audit   picomatch: [ '2.3.1' ],
+24 silly audit   pify: [ '2.3.0' ],
+24 silly audit   pirates: [ '4.0.7' ],
+24 silly audit   'postcss-import': [ '15.1.0' ],
+24 silly audit   'postcss-js': [ '4.1.0' ],
+24 silly audit   'postcss-nested': [ '6.2.0' ],
+24 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+24 silly audit   'postcss-value-parser': [ '4.2.0' ],
+24 silly audit   'prop-types': [ '15.8.1' ],
+24 silly audit   'proxy-from-env': [ '1.1.0' ],
+24 silly audit   'queue-microtask': [ '1.2.3' ],
+24 silly audit   react: [ '18.3.1' ],
+24 silly audit   'react-dom': [ '18.3.1' ],
+24 silly audit   'react-is': [ '16.13.1' ],
+24 silly audit   'react-smooth': [ '4.0.4' ],
+24 silly audit   'react-transition-group': [ '4.4.5' ],
+24 silly audit   'read-cache': [ '1.0.0' ],
+24 silly audit   readdirp: [ '3.6.0' ],
+24 silly audit   recharts: [ '2.12.7' ],
+24 silly audit   'recharts-scale': [ '0.4.5' ],
+24 silly audit   resolve: [ '1.22.11' ],
+24 silly audit   reusify: [ '1.1.0' ],
+24 silly audit   'run-parallel': [ '1.2.0' ],
+24 silly audit   scheduler: [ '0.23.2' ],
+24 silly audit   'shebang-command': [ '2.0.0' ],
+24 silly audit   'shebang-regex': [ '3.0.0' ],
+24 silly audit   'signal-exit': [ '4.1.0' ],
+24 silly audit   sonner: [ '1.5.0' ],
+24 silly audit   'source-map-js': [ '1.2.1' ],
+24 silly audit   streamsearch: [ '1.1.0' ],
+24 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+24 silly audit   'strip-ansi': [ '6.0.1', '7.1.2' ],
+24 silly audit   'styled-jsx': [ '5.1.1' ],
+24 silly audit   sucrase: [ '3.35.0' ],
+24 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+24 silly audit   'tailwind-merge': [ '2.5.2' ],
+24 silly audit   tailwindcss: [ '3.4.10' ],
+24 silly audit   'postcss-load-config': [ '4.0.2' ],
+24 silly audit   thenify: [ '3.3.1' ],
+24 silly audit   'thenify-all': [ '1.6.0' ],
+24 silly audit   'tiny-invariant': [ '1.3.3' ],
+24 silly audit   'to-regex-range': [ '5.0.1' ],
+24 silly audit   'ts-interface-checker': [ '0.1.13' ],
+24 silly audit   tslib: [ '2.8.1' ],
+24 silly audit   typescript: [ '5.9.3' ],
+24 silly audit   'undici-types': [ '7.16.0' ],
+24 silly audit   'update-browserslist-db': [ '1.1.4' ],
+24 silly audit   'util-deprecate': [ '1.0.2' ],
+24 silly audit   'victory-vendor': [ '36.9.2' ],
+24 silly audit   which: [ '2.0.2' ],
+24 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+24 silly audit   yaml: [ '2.8.1' ],
+24 silly audit   'tailwindcss-animate': [ '1.0.7' ]
+24 silly audit }
+25 verbose reify failed optional dependency /Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-win32-x64-msvc
+26 silly reify mark deleted [
+26 silly reify   '/Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-win32-x64-msvc'
+26 silly reify ]
+27 verbose reify failed optional dependency /Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-win32-ia32-msvc
+28 silly reify mark deleted [
+28 silly reify   '/Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-win32-ia32-msvc'
+28 silly reify ]
+29 verbose reify failed optional dependency /Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-win32-arm64-msvc
+30 silly reify mark deleted [
+30 silly reify   '/Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-win32-arm64-msvc'
+30 silly reify ]
+31 verbose reify failed optional dependency /Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-linux-x64-musl
+32 silly reify mark deleted [
+32 silly reify   '/Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-linux-x64-musl'
+32 silly reify ]
+33 verbose reify failed optional dependency /Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-linux-x64-gnu
+34 silly reify mark deleted [
+34 silly reify   '/Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-linux-x64-gnu'
+34 silly reify ]
+35 verbose reify failed optional dependency /Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-linux-arm64-musl
+36 silly reify mark deleted [
+36 silly reify   '/Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-linux-arm64-musl'
+36 silly reify ]
+37 verbose reify failed optional dependency /Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-linux-arm64-gnu
+38 silly reify mark deleted [
+38 silly reify   '/Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-linux-arm64-gnu'
+38 silly reify ]
+39 verbose reify failed optional dependency /Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-darwin-x64
+40 silly reify mark deleted [
+40 silly reify   '/Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web/node_modules/@next/swc-darwin-x64'
+40 silly reify ]
+41 http cache tailwindcss-animate@https://registry.npmjs.org/tailwindcss-animate/-/tailwindcss-animate-1.0.7.tgz 0ms (cache hit)
+42 http cache fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+43 silly tarball no local data for tailwindcss-animate@https://registry.npmjs.org/tailwindcss-animate/-/tailwindcss-animate-1.0.7.tgz. Extracting by manifest.
+44 http fetch GET 200 https://registry.npmjs.org/tailwindcss-animate/-/tailwindcss-animate-1.0.7.tgz 129ms (cache miss)
+45 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 389ms
+46 silly audit report {
+46 silly audit report   axios: [
+46 silly audit report     {
+46 silly audit report       id: 1103618,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-jr5f-v2jv-69x6',
+46 silly audit report       title: 'axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL',
+46 silly audit report       severity: 'high',
+46 silly audit report       vulnerable_versions: '>=1.0.0 <1.8.2',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     },
+46 silly audit report     {
+46 silly audit report       id: 1108263,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-4hjh-wcwx-xvwj',
+46 silly audit report       title: 'Axios is vulnerable to DoS attack through lack of data size check',
+46 silly audit report       severity: 'high',
+46 silly audit report       vulnerable_versions: '>=1.0.0 <1.12.0',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     }
+46 silly audit report   ],
+46 silly audit report   next: [
+46 silly audit report     {
+46 silly audit report       id: 1099638,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-gp8f-8m3g-qvj9',
+46 silly audit report       title: 'Next.js Cache Poisoning',
+46 silly audit report       severity: 'high',
+46 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.10',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     },
+46 silly audit report     {
+46 silly audit report       id: 1100421,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-g77x-44xx-532m',
+46 silly audit report       title: 'Denial of Service condition in Next.js image optimization',
+46 silly audit report       severity: 'moderate',
+46 silly audit report       vulnerable_versions: '>=10.0.0 <14.2.7',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     },
+46 silly audit report     {
+46 silly audit report       id: 1101438,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-7m27-7ghc-44w9',
+46 silly audit report       title: 'Next.js Allows a Denial of Service (DoS) with Server Actions',
+46 silly audit report       severity: 'moderate',
+46 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.21',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     },
+46 silly audit report     {
+46 silly audit report       id: 1105461,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-3h52-269p-cp9r',
+46 silly audit report       title: 'Information exposure in Next.js dev server due to lack of origin verification',
+46 silly audit report       severity: 'low',
+46 silly audit report       vulnerable_versions: '>=13.0 <14.2.30',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     },
+46 silly audit report     {
+46 silly audit report       id: 1107226,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-g5qg-72qw-gw5v',
+46 silly audit report       title: 'Next.js Affected by Cache Key Confusion for Image Optimization API Routes',
+46 silly audit report       severity: 'moderate',
+46 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.31',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     },
+46 silly audit report     {
+46 silly audit report       id: 1107420,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-7gfc-8cq8-jh5f',
+46 silly audit report       title: 'Next.js authorization bypass vulnerability',
+46 silly audit report       severity: 'high',
+46 silly audit report       vulnerable_versions: '>=9.5.5 <14.2.15',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     },
+46 silly audit report     {
+46 silly audit report       id: 1107512,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-4342-x723-ch2f',
+46 silly audit report       title: 'Next.js Improper Middleware Redirect Handling Leads to SSRF',
+46 silly audit report       severity: 'moderate',
+46 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.32',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     },
+46 silly audit report     {
+46 silly audit report       id: 1107513,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-xv57-4mr9-wg8v',
+46 silly audit report       title: 'Next.js Content Injection Vulnerability for Image Optimization',
+46 silly audit report       severity: 'moderate',
+46 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.31',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     },
+46 silly audit report     {
+46 silly audit report       id: 1108291,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-qpjv-v59x-3qc4',
+46 silly audit report       title: 'Next.js Race Condition to Cache Poisoning',
+46 silly audit report       severity: 'low',
+46 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.24',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     },
+46 silly audit report     {
+46 silly audit report       id: 1108953,
+46 silly audit report       url: 'https://github.com/advisories/GHSA-f82v-jwr5-mffw',
+46 silly audit report       title: 'Authorization Bypass in Next.js Middleware',
+46 silly audit report       severity: 'critical',
+46 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.25',
+46 silly audit report       cwe: [Array],
+46 silly audit report       cvss: [Object]
+46 silly audit report     }
+46 silly audit report   ]
+46 silly audit report }
+47 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+48 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+49 http cache https://registry.npmjs.org/axios 6ms (cache hit)
+50 silly packumentCache corgi:https://registry.npmjs.org/axios set size:260279 disposed:false
+51 http cache https://registry.npmjs.org/next 25ms (cache hit)
+52 silly packumentCache corgi:https://registry.npmjs.org/next set size:22318536 disposed:false
+53 silly ADD node_modules/tailwindcss-animate
+54 silly ADD node_modules/fsevents
+55 silly ADD
+56 silly ADD
+57 silly ADD
+58 silly ADD
+59 silly ADD
+60 silly ADD
+61 silly ADD
+62 silly ADD
+63 verbose cwd /Users/vijayshankar/Downloads/lifecycle-free-tool/lifecycle-web
+64 verbose os Darwin 25.0.0
+65 verbose node v22.20.0
+66 verbose npm  v10.9.3
+67 verbose exit 0
+68 info ok

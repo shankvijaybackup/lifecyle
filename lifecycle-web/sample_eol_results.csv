@@ -1,0 +1,4 @@
+input_vendor,input_model,vendor,model,category,end_of_sale,end_of_support,end_of_life,risk_level,months_to_eol,window_bucket,recommended_replacement,advisory_url,match_score
+Cisco,Catalyst 2960X-48FPS-L,Cisco,Catalyst 2960X-48P-L,Switch,2019-09-30,2024-09-30,2026-03-31,low,18,12-24,Catalyst 9300-48P,https://www.cisco.com/go/eol-catalyst-2960x,95
+Dell,PowerEdge R740,Dell,Dell PowerEdge R740 Server,Server,2022-06-30,2027-06-30,2028-12-31,high,5,3-6,PowerEdge R760,https://www.dell.com/support/kbdoc/en-us/000189353,92
+Fortinet,FortiGate 100E,Fortinet,FortiGate 100E,Firewall,2020-12-15,2024-12-15,2025-08-01,expired,-2,expired,FortiGate 100F,https://www.fortinet.com/support/product-life-cycle,100
